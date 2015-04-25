@@ -1,0 +1,142 @@
+html,body {
+	font-size: 13px;
+	font-family:'Helvetica Neue',Verdana;
+	overflow-x:hidden;
+}
+html,body,ul,ol {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color:#F00;
+}
+ul,ol{
+	margin-left:15px;
+}
+hr {
+	border:0;
+	border-bottom:1px dotted gray;
+}
+.clear {
+	clear: both;
+}
+#nav {
+	margin:30px 0 20px;
+	font-family: georgia;
+	border-bottom: 1px dotted #ddd;
+}
+#nav .site-title {
+	font-size: 18px;
+	font-family: Consolas;
+}
+#nav>ul>li {
+	list-style: none;
+}
+#nav>ul>li {
+	float: left;
+	padding-right: 10px;
+}
+#nav .category {
+	padding:20px 0 10px;
+}
+#nav .category>a{
+	margin-right:10px;
+}
+.container {
+	width:800px;
+	margin:0 auto;
+	padding-bottom: 50px;
+}
+@media (max-width:760px) {
+	html,body {
+		font-size:15px;
+	}
+	#nav .site-title {
+		font-size: 25px;
+	}
+	.container {
+		width:85%;
+	}
+	.category a {
+		font-size: 14px;
+	}
+	.posts .time {
+		display: none;
+	}
+	.article pre {
+		font-size:10px;
+	}
+}
+.posts .time {
+	color:#888;
+}
+.posts>li {
+	margin:5px 0;
+}
+.posts a:hover {
+	text-decoration: underline;
+}
+.article {
+	padding-bottom: 20px;
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+.article .title {
+	font-weight: bold;
+}
+.article a {
+	color:blue;
+}
+.page-navigator {
+	margin-top:20px;
+	list-style: none;
+}
+.page-navigator li {
+	float:left;
+}
+.page-navigator li>a {
+	padding-right: 5px;
+}
+code {
+	font-family: Menlo,Monaco,Consolas,"Lucida Console";
+  font-size: 12px;
+  background: #F3F3F0;
+  color: #c7254e;
+  border-radius: 3px;
+  padding: 4px 5px;
+  margin: 0 5px;
+}
+pre {
+  border-left:5px solid #6ce26c;
+  padding: 10px 10px 10px 21px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+blockquote {
+	margin:15px 0;
+	padding:15px 25px;
+	background-color: #f6f6f6;
+	border:1px solid #ddd;
+}
+
+::-webkit-scrollbar-thumb{  
+   background-color:#aaa;  
+}  
+
+::-webkit-scrollbar-thumb:hover{  
+   background-color:#63c6ae;  
+}  
+ 
+::-webkit-scrollbar{  
+   width:8px;   
+} 
